@@ -1,0 +1,55 @@
+{
+    "name": "Bot Descarga Videos",
+    "description": "Un bot que puede descargar vídeo o audio de sitios web de vídeo.",
+    "logo": "https://telegra.ph/file/5aee6774b3c4ab6f0b5ed.jpg",
+    "keywords": [
+        "AnyDL",
+        "Video Downloader",
+        "Telegram Bot",
+        "JE Bots"
+    ],
+    "website": "telegram.org",
+    "repository": "https://github.com/Faay94/BotDeFaayJAJA",
+    "success_url": "https://t.me/ancientb",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Tu token de bot de Telegram desde @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Su hash de API desde my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Su ID de aplicación desde my.telegram.org",
+            "value": ""
+        },
+        "AUDIO_THUMBNAIL": {
+            "description": "Si necesita usar miniaturas personalizadas para archivos de audio, obtenga la url de telégrafo de su miniatura y colótelo aquí. Si no mantener No",
+            "value": "No"
+        },
+        "VIDEO_THUMBNAIL": {
+            "description": "Si necesita usar miniaturas personalizadas para archivos de video, obtenga la url de telégrafo de su miniatura y colótela aquí. Si no mantener No",
+            "value": "No"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Su nombre de usuario de canal sin @ para obligar a los usuarios a unirse a su canal antes de usar el bot  (Debe agregar el bot a su canal como administrador)",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
