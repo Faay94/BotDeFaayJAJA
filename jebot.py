@@ -57,7 +57,7 @@ async def help(client, message):
 
 Sólo tienes que enviar una url de vídeo de Youtube, Pornhub o Xhamster para descargarlo en formato de vídeo o audio!
 
-Únete a @ancientb para poder usarme</b>""",
+Únete a @AnxBins para poder usarme</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
