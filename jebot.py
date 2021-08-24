@@ -349,7 +349,7 @@ async def button(bot, update):
 
 print(
     """
-Bot Funcionando
+Faay Gei
 """
 )
 
