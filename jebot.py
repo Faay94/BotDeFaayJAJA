@@ -39,7 +39,7 @@ Pulsa el botón de ayuda para obtener más información sobre cómo usarme</b>""
                                         InlineKeyboardButton(
                                             "Cómo usar el bot", url="https://telegra.ph/Tutorial-de-Descargar-videos-08-20"),
                                         InlineKeyboardButton(
-                                            "Canal", url="https://t.me/ancientb")
+                                            "Canal", url="https://t.me/anxbins")
                                     ],[
                                       InlineKeyboardButton(
                                             "Dueño", url="https://t.me/faay2021")
@@ -117,7 +117,7 @@ async def ytdl_with_button(c: Client, message: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="**Únete a @ancientb para usarme🙂**",
+                text="**Únete a @AnxBins para usarme🙂**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
